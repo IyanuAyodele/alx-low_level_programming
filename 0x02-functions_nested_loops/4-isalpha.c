@@ -7,15 +7,15 @@
  *
  * Return: 1 if c is an alphabet, otherwise Return: 0
  */
-int _isalpha (int c)
+int _isalpha(int c)
 {
-	if((c>=65 && c<=90) || (c>=97 && c<=120))
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 120))
 {
-	return 1;
+	return (1);
 }
 else
 {
-	return 0;
+	return (0);
 }
 _putchar('\n');
 }
