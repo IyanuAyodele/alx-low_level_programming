@@ -20,7 +20,8 @@ char *create_array(unsigned int size, char c)
 	if (cp == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++)		cp[i] = c;
+	for (i = 0; i < size; i++)	
+		cp[i] = c;
 
 	return (cp);
 }
